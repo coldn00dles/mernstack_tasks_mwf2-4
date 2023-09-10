@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css7.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="your name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="your email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="tel" name="phone_number" required></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="male"> Male
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="female"> Female
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Language:</td>
+                    <td>
+                        <select name="language" required>
+                            <option value="hindi">Hindi</option>
+                            <option value="kannada">Kannada</option>
+                            <option value="tamil">Tamil</option>
+                            <option value="english">English</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>About:</td>
+                    <td><textarea name="about" required></textarea></td>
+                </tr>
+            </table>
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+    </div>
+</body>
+</html>
